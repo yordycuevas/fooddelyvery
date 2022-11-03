@@ -47,8 +47,11 @@
 }
 
 .hero__img img{
-    width:30rem; 
-    align-self: center;
+    width:100%; 
+    align-items: center;
+    
+    
+
 }   
 
 .text-center h2{
@@ -87,4 +90,65 @@
 
 .tittle__arrivals{
     margin-top: 2rem;
+}
+
+.section-title{
+    font-size: 1.4rem;
+}
+
+
+
+@media only screen and (max-width: 992px) {
+
+    .hero__content h2{
+        font-size: 2rem;
+    }
+
+    .section-title{
+        font-size: 1.7rem;
+    }
+
+    .clock__top-content{
+        text-align: center;
+    }
+
+    .clock__top-content h4 {
+        font-style: .9rem !important;
+    }
+    
+    .clock__top-content h3 {
+        font-style: 1rem !important;
+    }
+
+    .count__down-col{
+        text-align: center;
+      
+    }
+}
+
+@media only screen and (max-width: 768px){
+    .hero__content h2{
+        font-size: 1.6rem;
+    }
+    .hero__content p{
+        font-size: .9rem;
+    }
+
+    .buy__btn a{
+        font-size: .9rem;
+    }
+    .section-title{
+        font-style: 1.4rem;
+    }
+
+    
+}
+
+@media only screen and (max-width: 576px){
+
+    .hero__content{
+        padding-top: 0px;
+        margin-bottom: 40px;
+    }
+
 }
