@@ -81,9 +81,44 @@
   z-index: 10;
 }
 
-.nav__icons span img {
+.nav__icons .profile img {
   width: 3.5rem;
   height: 3.5rem;
+  cursor: pointer;
+  border-radius: 50%;
+  
+}
+
+.nav__icons .profile{
+  position: relative;
+  z-index:9;
+}
+
+.nav__icons .profile .profile__actions{
+  position: relative;
+  top: 100%;
+  left: 0;
+  width: 5rem;
+  z-index: 10;
+  padding: .2rem;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  background: var(--amarillo);
+  line-height: 30px;
+  border-radius:10px;
+  /* display: none; */
+
+
+}
+
+.show__profileActions{
+  display:block;
+}
+
+.profile {
+  display: flex;
+  align-items: center;
 }
 
 .mobile__menu {
@@ -164,6 +199,13 @@
   }
 
 
-
+  .profile {
+    display: inline-block;
+    
+  }
+  .profile {
+    display: inline-block;
+    
+  }
   
 }

@@ -2,6 +2,7 @@ import React from "react";
 import { Container, Row, Col, Form, FormGroup } from "reactstrap";
 import Helmet from "../components/Helmet/Helmet";
 import CommonSection from "../components/UI/CommonSection";
+import { toast} from "react-toastify";
 
 import "../styles/checkout.css";
 import { useSelector } from "react-redux";
@@ -10,6 +11,9 @@ const Checkout = () => {
 
   const totalQty = useSelector((state) => state.cart.totalQuantity)
   const totalAmount = useSelector((state) => state.cart.totalAmount)
+
+  const endBuy = () => {toast.success('Thank you for your purchase, we will send you an email.')}
+  
 
   return (
     <Helmet title="Checkout">
@@ -64,7 +68,7 @@ const Checkout = () => {
 
               </div>
 
-              <button className="buy__btn auth__btn"> Place an order</button>
+              <button className="buy__btn auth__btn"  onClick={endBuy}> Place an order</button>
             </Col>
             
           </Row>
