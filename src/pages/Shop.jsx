@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React, { useState,useEffect } from "react";
 
 import CommonSection from "../components/UI/CommonSection";
 import Helmet from "../components/Helmet/Helmet";
@@ -48,6 +48,10 @@ const Shop = () => {
     );
     setProductsData(searchedProducts);
   };
+
+  useEffect(() => {
+    window.scrollTo(0, 100);
+  }, []);
 
   return (
     <Helmet title="Shop">

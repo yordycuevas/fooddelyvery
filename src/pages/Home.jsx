@@ -50,6 +50,11 @@ const Home = () => {
     setPopularProducts(filteredPopularProducts);
   }, []);
 
+  useEffect(() => {
+    window.scrollTo(0, 1180);
+  }, []);
+
+
   return (
     <Helmet title={"Home"}>
       <section className="hero__section">
