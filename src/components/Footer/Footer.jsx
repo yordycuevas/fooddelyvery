@@ -41,7 +41,7 @@ const Footer = () => {
               </ListGroup>
             </div>
           </Col>
-          <Col lg="2" className="mb-4">
+          <Col lg="2" md='3' className="mb-4">
           <div className="footer__quick-links">
               <h4 className="quick__links-tittle">Useful Links</h4>
               <ListGroup className="mb-3">
@@ -60,7 +60,7 @@ const Footer = () => {
               </ListGroup>
             </div>
           </Col>
-          <Col lg="3" >
+          <Col lg="3" md='4' >
           <div className="footer__quick-links">
               <h4 className="quick__links-tittle">Contact</h4>
               <ListGroup className="footer__contact">

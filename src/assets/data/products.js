@@ -64,7 +64,7 @@ const products = [
 
   {
     id: "3",
-    productName: "Hamburger Double Baccon",
+    productName: "Hamburger Double Bacon",
     imgUrl: productImg3,
     category: "hamburger",
     price: 199,
