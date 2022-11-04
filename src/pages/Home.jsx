@@ -4,7 +4,6 @@ import { Link } from "react-router-dom";
 import { motion } from "framer-motion";
 import products from "../assets/data/products";
 
-
 import Helmet from "../components/Helmet/Helmet";
 import "../styles/home.css";
 
@@ -77,6 +76,7 @@ const Home = () => {
                 </motion.button>
               </div>
             </Col>
+
             <Col lg="6" md="6">
               <div className="hero__img">
                 <img src={heroImg} alt="hero" />
@@ -151,13 +151,13 @@ const Home = () => {
       </section>
 
       <section className="popular__category">
-      <Container>
+        <Container>
           <Row>
             <Col lg="12" className="text-center mb-5">
               <h2 className="section__tittle">Popular in Category</h2>
             </Col>
 
-            <ProductsList data={popularProducts}/>
+            <ProductsList data={popularProducts} />
           </Row>
         </Container>
       </section>

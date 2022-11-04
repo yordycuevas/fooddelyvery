@@ -1,154 +1,136 @@
-
-.hero__section{
-    background: var(--amarillo);
+.hero__section {
+  background: var(--amarillo);
 }
 
-.hero__content h2{
-    color: var(--primary-color);
-    font-size: 2.5rem;
-    font-weight: 600;
-    margin: 20px 0px;
+.hero__content h2 {
+  color: var(--primary-color);
+  font-size: 2.5rem;
+  font-weight: 600;
+  margin: 20px 0px;
 }
 
-.hero__section p{
-    color: var(--negro);
-    line-height: 28px;
+.hero__section p {
+  color: var(--negro);
+  line-height: 28px;
 }
 
-.hero__content p:nth-child(1){
-    font-size: 1.5rem;
-    font-weight: 600;
-
+.hero__content p:nth-child(1) {
+  font-size: 1.5rem;
+  font-weight: 600;
 }
 
-.buy__btn{
-    border: none;
-    outline: none;
-    padding: 8px 20px;
-    border-radius: 5px;
-    background: var(--negro);
-    color: #fff;
-    cursor: pointer;
-    font-size: 1rem;
-    margin-top: 2rem;
+.buy__btn {
+  border: none;
+  outline: none;
+  padding: 8px 20px;
+  border-radius: 5px;
+  background: var(--negro);
+  color: #fff;
+  cursor: pointer;
+  font-size: 1rem;
+  margin-top: 2rem;
 }
 
-.buy__btn:hover{
-    background: var(--rojo);
-    transition: background-color 0.7s ease;
+.buy__btn:hover {
+  background: var(--rojo);
+  transition: background-color 0.7s ease;
 }
 
-.buy__btn a:hover{
- color:#fff;   
+.buy__btn a:hover {
+  color: #fff;
 }
 
-.hero__content{
-    padding-top: 45px;
+.hero__content {
+  padding-top: 45px;
 }
 
-.hero__img img{
-    width:100%; 
-    align-items: center;
-    
-    
-
-}   
-
-.text-center h2{
-    padding: 0 0 4rem 0;
+.hero__img img {
+  width: 100%;
+  align-items: center;
 }
 
-.timer__count{
-    background: var(--negro);
-    height: 300px;
- 
+.text-center h2 {
+  padding: 0 0 4rem 0;
 }
 
-.timer__count img{
-    width: 15rem!important;
-    height: 15rem !important;
-    object-fit: cover;
+.timer__count {
+  background: var(--negro);
+  height: 300px;
 }
 
-
-.store__btn{
-    background: #fff;
-    color: var(--negro);
-    font-weight: 600;
+.timer__count img {
+  width: 40%;
+  height: 90%;
 }
 
-.store__btn a:hover{
-    color:var(--white);
+.store__btn {
+  background: #fff;
+  color: var(--negro);
+  font-weight: 600;
 }
 
-.store__btn:hover{
-    background: var(--amarillo) !important;
-    transition: background-color 0.7s ease;
-
-    
+.store__btn a:hover {
+  color: var(--white);
 }
 
-.tittle__arrivals{
-    margin-top: 2rem;
+.store__btn:hover {
+  background: var(--amarillo) !important;
+  transition: background-color 0.7s ease;
 }
 
-.section-title{
-    font-size: 1.4rem;
+.tittle__arrivals {
+  margin-top: 2rem;
 }
 
-
+.section-title {
+  font-size: 1.4rem;
+}
 
 @media only screen and (max-width: 992px) {
+  .hero__content h2 {
+    font-size: 2rem;
+  }
 
-    .hero__content h2{
-        font-size: 2rem;
-    }
+  .section-title {
+    font-size: 1.7rem;
+  }
 
-    .section-title{
-        font-size: 1.7rem;
-    }
+  .clock__top-content {
+    text-align: center;
+  }
 
-    .clock__top-content{
-        text-align: center;
-    }
+  .clock__top-content h4 {
+    font-style: 0.9rem !important;
+  }
 
-    .clock__top-content h4 {
-        font-style: .9rem !important;
-    }
-    
-    .clock__top-content h3 {
-        font-style: 1rem !important;
-    }
+  .clock__top-content h3 {
+    font-style: 1rem !important;
+  }
 
-    .count__down-col{
-        text-align: center;
-      
-    }
+  .count__down-col {
+    text-align: center;
+  }
 }
 
-@media only screen and (max-width: 768px){
-    .hero__content h2{
-        font-size: 1.6rem;
-    }
-    .hero__content p{
-        font-size: .9rem;
-    }
+@media only screen and (max-width: 768px) {
+  .hero__content h2 {
+    font-size: 1.6rem;
+  }
+  .hero__content p {
+    font-size: 0.9rem;
+  }
 
-    .buy__btn a{
-        font-size: .9rem;
-    }
-    .section-title{
-        font-style: 1.4rem;
-    }
-
-    
+  .buy__btn a {
+    font-size: 0.9rem;
+  }
+  .section-title {
+    font-style: 1.4rem;
+  }
 }
 
-@media only screen and (max-width: 576px){
-
-    .hero__content{
-        padding-top: 0px;
-        margin-bottom: 40px;
-    }
-
+@media only screen and (max-width: 576px) {
+  .hero__content {
+    padding-top: 0px;
+    margin-bottom: 40px;
+  }
 }

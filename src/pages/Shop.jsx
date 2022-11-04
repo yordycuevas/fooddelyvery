@@ -67,7 +67,7 @@ const Shop = () => {
                 </select>
               </div>
             </Col>
-            <Col lg="3" ms="3">
+            <Col lg="3" ms="6" className="text-end">
               <div className="filter__widget">
                 <select>
                   <option>Sort By</option>
@@ -76,7 +76,7 @@ const Shop = () => {
                 </select>
               </div>
             </Col>
-            <Col lg="6" ms="6">
+            <Col lg="6" ms="12">
               <div className="search__box">
                 <input
                   type="text"
